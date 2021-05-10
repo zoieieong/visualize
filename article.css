@@ -182,6 +182,12 @@ h1 {
   margin-bottom:80px;
 }
 
+.div-infogram{
+  width:calc(900/1440*100%);
+  margin-left:17%;
+  padding-bottom: 70px;
+}
+
 @media (min-width: 1023px) and (max-width: 1440px) {
   .header{
     height:120px;
@@ -240,6 +246,12 @@ h1 {
   .picture{
     width:calc(800/1440*100%);
     text-align:center;
+  }
+
+  .div-infogram{
+    width:calc(1000/1440*100%);
+    margin-left:17%;
+    padding-bottom: 70px;
   }
 }
 
@@ -312,6 +324,12 @@ h1 {
     margin-left:13%;
     margin-bottom:30px;
   }
+
+  .div-infogram{
+    width:calc(900/1440*100%);
+    margin-left:17%;
+    padding-bottom: 70px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 766px){
@@ -350,17 +368,17 @@ h1 {
     height:140px;
     font-size: 48px;
     margin-left:13%;
-    padding-bottom:360px;
+    padding-bottom:120px;
   }
 
   .article-font {
-    width:calc(1000/1440*100%);
+    width:calc(1200/1440*100%);
     font-size:18px;
     line-height: 40px;
     color:#262626;
     font-weight: 400;
-    margin-left:13%;
-    padding-bottom: 50px;
+    margin-left:10%;
+    padding-bottom: 70px;
   }
 
   .annotation{
@@ -393,6 +411,12 @@ h1 {
     display:block;
     margin-left:13%;
     margin-bottom:30px;
+  }
+
+  .div-infogram{
+    width:100%;
+    margin-left:0;
+    padding-bottom: 70px;
   }
 }
 
