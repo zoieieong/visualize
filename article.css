@@ -1,0 +1,399 @@
+*{font-family: 'Noto Sans TC', 'PT Serif';
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+  background-color: #F7BC99;
+}
+
+.header{
+  width: 100%;
+  height:200px;
+  background-color: #80BEAF;
+  margin-bottom:80px;
+}
+
+.header-title{
+  display:inline-block;
+  width:425px;
+  height:85px;
+  font-family: 'PT Serif';
+  font-size:60px;
+  color:white;
+  margin-left:60px;
+  padding-top:25px;
+}
+
+.type{
+  display:inline-block;
+  width:425px;
+  height:85px;
+  font-size:25px;
+  color:white;
+  position:relative;
+  bottom:30px;
+  top:1px;
+  left:30%;
+}
+
+.toolbar{
+  display:inline-block;
+  width:50px;
+  position:relative;
+  left:15%;
+}
+
+.tool{
+  top:20px;
+  width:50px;
+  height:50px;
+  display:inline-block;
+  position:relative;
+}
+
+.choice{
+  width: 100px;
+  height: auto;
+  opacity: 50%;
+}
+
+li{
+  list-style: none;
+}
+
+.colorlist{
+  display: none;
+  position: absolute;
+  z-index: 50;
+  padding: 0;
+  right: 5%;
+  margin:0;
+}
+
+.colorlist li{
+  padding:25px 35px;
+  background-color: white;
+}
+
+.colorlist li:first-child{
+  padding:15px;
+  background-color:transparent;
+}
+
+.change-color:hover .colorlist {
+  display:block;
+}
+
+.choice:hover {
+  opacity: 100%;
+  color: #4d3006;
+  transition-duration:0.3s;
+}
+
+h1 {
+  font-family: 'Noto Serif TC', serif;
+  width:750px;
+  height:68px;
+  font-size: 48px;
+  color: #68523E;
+  font-weight: 700;
+  line-height: 68px;
+  padding-top:100px;
+  margin-left:20%;
+  padding-bottom:120px;
+}
+
+.article-font {
+  font-family: 'Noto Sans TC', sans-serif;
+  width:700px;
+  font-size:18px;
+  line-height: 40px;
+  color:#262626;
+  font-weight: 400;
+  margin-left:20%;
+  padding-bottom: 80px;
+}
+
+.picture{
+  width:700px;
+  margin-right:40px;
+}
+
+.caption{
+  width:150px;
+  font-size:16px;
+  line-height: 30px;
+  color: #68523E;
+  border-left: 2px solid #E9C58F;
+  padding-left:15px;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.div-caption{
+    width:1000px;
+    display: flex;
+    align-items: flex-end;
+    margin-left:20%;
+    padding-top:40px;
+    margin-bottom:80px;
+}
+
+.annotation-in-article{
+  padding-bottom: 1px;
+  border-bottom: 2px solid #E9C58F;
+}
+
+.annotation{
+  width: 700px;
+  margin-left:20%;
+  background-color: #68523E;
+  padding: 7px 10px;
+  margin-bottom:40px;
+}
+
+.annotation-font{
+  width: 700px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.footer{
+  width: 100%;
+  height:140px;
+  background-color: #E9C58F;
+  margin-top:140px;
+  font-size:16px;
+  line-height:30px;
+}
+
+.div-article{
+  width:90%;
+  background-color:white;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-top-left-radius:50px;
+  border-top-right-radius:50px;
+  border-bottom-right-radius:50px;
+  border-bottom-left-radius:50px;
+  margin-bottom:80px;
+}
+
+@media (min-width: 1023px) and (max-width: 1440px) {
+  .header{
+    height:120px;
+  }
+
+  .header-title{
+    width:300px;
+    height:50px;
+    font-size:40px;
+    margin-left:60px;
+    padding-top:25px;
+  }
+
+  .type{
+    left:25%
+  }
+
+  .toolbar{
+    left:12%;
+  }
+
+  h1{
+    width:calc(800/1440*100%);
+    height:140px;
+    font-size: 48px;
+    margin-left:17%;
+    padding-bottom:120px;
+  }
+
+  .article-font {
+    width:calc(900/1440*100%);
+    font-size:18px;
+    line-height: 40px;
+    color:#262626;
+    font-weight: 400;
+    margin-left:17%;
+    padding-bottom: 70px;
+  }
+
+  .div-caption{
+    margin-left:17%;
+    width:calc(1000/1440*100%);
+  }
+
+  .annotation{
+    width:calc(800/1440*100%);
+    margin-left:17%;
+  }
+  .annotation-font{
+    width: calc(1200/1440*100%);
+    font-size: 14px;
+  line-height: 20px;
+  padding-left:17%;
+  }
+
+  .picture{
+    width:calc(800/1440*100%);
+    text-align:center;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+  .header{
+    height:100px;
+  }
+
+  .header-title{
+    width:200px;
+    height:50px;
+    font-size:30px;
+    margin-left:60px;
+    padding-top:25px;
+  }
+
+  .type{
+    left:25%
+  }
+
+  .toolbar{
+    left:0%;
+  }
+  h1{
+    width:calc(800/1440*100%);
+    height:140px;
+    font-size: 48px;
+    margin-left:13%;
+    padding-bottom:240px;
+  }
+
+  .article-font {
+    width:calc(800/1440*100%);
+    font-size:18px;
+    line-height: 40px;
+    color:#262626;
+    font-weight: 400;
+    margin-left:13%;
+    padding-bottom: 50px;
+  }
+
+  .annotation{
+    width:calc(800/1440*100%);
+    margin-left:13%;
+  }
+  .annotation-font{
+    width: calc(1200/1440*100%);
+    font-size: 14px;
+  line-height: 20px;
+  padding-left:13%;
+  }
+
+  .picture{
+    width:100%;
+    height:auto;
+  }
+
+  .caption{
+    width:100%;
+    font-size:14px;
+    line-height: 28px;
+    padding-top:8px;
+    padding-bottom:8px;
+  }
+
+  .div-caption{
+    width:calc(800/1440*100%);
+    padding-bottom:60px;
+    display:block;
+    margin-left:13%;
+    margin-bottom:30px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 766px){
+  .header{
+    width: 100%;
+    height:80px;
+  }
+
+  .header-title{
+    width:200px;
+    height:80px;
+    font-family: 'PT Serif';
+    font-size:25px;
+    color:white;
+    margin-left:60px;
+    padding-top:20px;
+  }
+
+  .type{
+    display:none;
+  }
+
+  .toolbar{
+    left:5px;
+    width:30px;
+  }
+
+  .tool{
+    width:20px;
+    height:20px;
+    left:15%;
+  }
+
+  h1{
+    width:calc(1000/1440*100%);
+    height:140px;
+    font-size: 48px;
+    margin-left:13%;
+    padding-bottom:360px;
+  }
+
+  .article-font {
+    width:calc(1000/1440*100%);
+    font-size:18px;
+    line-height: 40px;
+    color:#262626;
+    font-weight: 400;
+    margin-left:13%;
+    padding-bottom: 50px;
+  }
+
+  .annotation{
+    width:calc(1000/1440*100%);
+    margin-left:13%;
+  }
+  .annotation-font{
+    width: calc(1200/1440*100%);
+    font-size: 14px;
+  line-height: 20px;
+  padding-left:13%;
+  }
+
+  .picture{
+    width:100%;
+    height:auto;
+  }
+
+  .caption{
+    width:100%;
+    font-size:14px;
+    line-height: 28px;
+    padding-top:8px;
+    padding-bottom:8px;
+  }
+
+  .div-caption{
+    width:calc(1000/1440*100%);
+    padding-bottom:60px;
+    display:block;
+    margin-left:13%;
+    margin-bottom:30px;
+  }
+}
+
+
