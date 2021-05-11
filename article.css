@@ -417,6 +417,7 @@ h1 {
     width:100%;
     margin-left:0;
     padding-bottom: 70px;
+    box-sizing:content-box;
   }
 }
 
