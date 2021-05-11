@@ -53,56 +53,30 @@ body{
   position:relative;
 }
 
-.choice{
-  width: 100px;
-  height: auto;
-  opacity: 50%;
-}
-
-li{
-  list-style: none;
-}
-
-.colorlist{
-  display: none;
-  position: absolute;
-  z-index: 50;
-  padding: 0;
-  right: 5%;
-  margin:0;
-}
-
-.colorlist li{
-  padding:25px 35px;
-  background-color: white;
-}
-
-.colorlist li:first-child{
-  padding:15px;
-  background-color:transparent;
-}
-
-.change-color:hover .colorlist {
-  display:block;
-}
-
-.choice:hover {
-  opacity: 100%;
-  color: #4d3006;
-  transition-duration:0.3s;
-}
-
 h1 {
   font-family: 'Noto Serif TC', serif;
   width:750px;
-  height:68px;
+  height:200px;
   font-size: 48px;
   color: #68523E;
   font-weight: 700;
   line-height: 68px;
   padding-top:100px;
   margin-left:20%;
-  padding-bottom:120px;
+  margin-bottom:120px;
+}
+
+h2{
+  font-family: 'Noto Serif TC', serif;
+  width:700px;
+  height:60px;
+  font-size: 36px;
+  color: #68523E;
+  font-weight: 700;
+  line-height: 60px;
+  margin-top:60px;
+  margin-left:20%;
+  margin-bottom:60px;
 }
 
 .article-font {
@@ -183,9 +157,9 @@ h1 {
 }
 
 .div-infogram{
-  width:calc(900/1440*100%);
+  width:700px;
   margin-left:20%;
-  padding-bottom: 70px;
+  margin-bottom: 80px;
 }
 
 @media (min-width: 1023px) and (max-width: 1440px) {
@@ -211,10 +185,10 @@ h1 {
 
   h1{
     width:calc(800/1440*100%);
-    height:140px;
+    height:100px;
     font-size: 48px;
     margin-left:17%;
-    padding-bottom:120px;
+    margin-bottom:200px;
   }
 
   .article-font {
@@ -249,7 +223,7 @@ h1 {
   }
 
   .div-infogram{
-    width:calc(1000/1440*100%);
+    width:calc(900/1440*100%);
     margin-left:17%;
     padding-bottom: 70px;
   }
@@ -280,7 +254,7 @@ h1 {
     height:140px;
     font-size: 48px;
     margin-left:13%;
-    padding-bottom:240px;
+    margin-bottom:200px;
   }
 
   .article-font {
@@ -328,6 +302,7 @@ h1 {
   .div-infogram{
     width:100%;
     margin-left:0;
+    margin-right:0;
     padding-bottom: 70px;
   }
 }
@@ -364,11 +339,11 @@ h1 {
   }
 
   h1{
-    width:calc(1000/1440*100%);
-    height:140px;
+    width:calc(1200/1440*100%);
+    height:200px;
     font-size: 48px;
     margin-left:8%;
-    padding-bottom:180px;
+    margin-bottom:200px;
   }
 
   .article-font {
@@ -421,3 +396,9 @@ h1 {
 }
 
 
+@media (min-width: 320px) and (max-width: 450px){
+  h1{
+    width:90%;
+    margin-bottom:250px;
+  }
+}
