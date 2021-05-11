@@ -420,10 +420,11 @@ h2{
 @media (min-width: 320px) and (max-width: 450px){
   h1{
     width:90%;
-    margin-bottom:250px;
+    margin-bottom:220px;
   }
 
   h2{
     width:90%;
+    margin-bottom:100px;
   }
 }
