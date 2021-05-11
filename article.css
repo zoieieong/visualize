@@ -415,7 +415,7 @@ h1 {
 
   .div-infogram{
     width:100%;
-    margin-left:0;
+    margin-left:-10px;
     padding-bottom: 70px;
     box-sizing:content-box;
   }
