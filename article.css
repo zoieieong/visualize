@@ -364,7 +364,7 @@ h2{
   h2{
     width:calc(1200/1440*100%);
     margin-left:8%;
-    font-size:32px;
+    font-size:24px;
     height:200px;
   }
 
@@ -427,6 +427,6 @@ h2{
 
   h2{
     width:90%;
-    margin-bottom:100px;
+    margin-bottom:60px;
   }
 }
