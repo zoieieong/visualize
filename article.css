@@ -172,7 +172,7 @@ h2{
 
 .div-caption{
   margin-left:17%;
-  width:calc(1100/1440*100%);
+  width:calc(1200/1440*100%);
 }
 
 .annotation{
@@ -187,7 +187,7 @@ padding-left:17%;
 }
 
 .picture{
-  width:calc(900/1440*100%);
+  width:calc(1000/1440*100%);
   text-align:center;
 }
 
@@ -268,7 +268,8 @@ padding-left:13%;
   width:calc(800/1440*100%);
   padding-bottom:60px;
   display:block;
-  margin-left:13%;
+  margin-left:auto;
+  margin-right:auto;
   margin-bottom:30px;
 }
 
