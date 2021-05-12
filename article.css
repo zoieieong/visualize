@@ -15,36 +15,6 @@ body{
   margin-bottom:80px;
 }
 
-.header-title{
-  display:inline-block;
-  width:425px;
-  height:85px;
-  font-family: 'PT Serif';
-  font-size:60px;
-  color:white;
-  margin-left:60px;
-  padding-top:25px;
-}
-
-.type{
-  display:inline-block;
-  width:425px;
-  height:85px;
-  font-size:25px;
-  color:white;
-  position:relative;
-  bottom:30px;
-  top:1px;
-  left:30%;
-}
-
-.toolbar{
-  display:inline-block;
-  width:50px;
-  position:relative;
-  left:15%;
-}
-
 .tool{
   top:20px;
   width:50px;
@@ -69,7 +39,7 @@ h1 {
 h2{
   font-family: 'Noto Serif TC', serif;
   width:700px;
-  height:100px;
+  height:60px;
   font-size: 36px;
   color: #68523E;
   font-weight: 700;
