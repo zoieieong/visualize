@@ -315,6 +315,11 @@ padding-left:13%;
   height:100px;
   left:75%;
 }
+.tool2{
+  width:100px;
+  height:100px;
+  left:7%;
+}
 
 h1{
   width:calc(1200/1440*100%);
@@ -398,5 +403,11 @@ h2{
   width:100px;
   height:100px;
   left:60%;
+}
+
+.tool2{
+  width:100px;
+  height:100px;
+  left:5%;
 }
 }
