@@ -287,6 +287,16 @@ padding-left:13%;
   margin-right:0;
   padding-bottom: 70px;
 }
+.tool{
+  left:70%;
+  width:200px;
+  height:200px;
+    }
+  
+  .tool2{
+    width:200px;
+  height:200px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 766px){
