@@ -343,7 +343,7 @@ h2{
   width:calc(1200/1440*100%);
   margin-left:8%;
   font-size:24px;
-  height:100px;
+  height:90px;
   line-height: 40px;
 }
 
@@ -407,7 +407,7 @@ h1{
 
 h2{
   width:90%;
-  margin-bottom:40px;
+  margin-bottom:35px;
 }
 
 .tool{
