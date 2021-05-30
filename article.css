@@ -57,6 +57,19 @@ margin-left:20%;
 margin-bottom:30px;
 }
 
+h3{
+font-family: 'Noto Serif TC', serif;
+width:700px;
+height:60px;
+font-size: 36px;
+color: #68523E;
+font-weight: 700;
+line-height: 60px;
+margin-top:60px;
+margin-left:20%;
+margin-bottom:60px;
+}
+
 .article-font {
 font-family: 'Noto Sans TC', sans-serif;
 width:700px;
@@ -169,6 +182,13 @@ h2{
   height:60px;
 }
 
+h3{
+  width:calc(900/1440*100%);
+  margin-left:17%;
+  font-size:32px;
+  height:60px;
+}
+  
 .article-font {
   width:calc(900/1440*100%);
   font-size:18px;
@@ -235,7 +255,16 @@ h2{
   margin-right:auto;
   font-size:32px;
   height:80px;
-  margin-bottom:50px;
+  margin-bottom:60px;
+}
+
+h2{
+  width:calc(800/1440*100%);
+  margin-left:auto;
+  margin-right:auto;
+  font-size:32px;
+  height:80px;
+  margin-bottom:80px;
 }
 
 .article-font {
@@ -356,6 +385,14 @@ h2{
   height:90px;
   line-height: 40px;
 }
+  
+  h3{
+  width:calc(1200/1440*100%);
+  margin-left:8%;
+  font-size:24px;
+  height:90px;
+  line-height: 40px;
+}
 
 .article-font {
   width:calc(1200/1440*100%);
@@ -419,6 +456,11 @@ h2{
   width:90%;
   margin-bottom:35px;
 }
+  
+  h3{
+  width:90%;
+  margin-bottom:35px;
+}
 
 .tool{
   width:100px;
@@ -432,11 +474,11 @@ h2{
   left:5%;
 }
 .footer{
-  width: 60%;
+  width: 65%;
   height:100px;
   padding-left:10%;
   font-size:11px;
   line-height:20px;
-  padding-right:3%;
+  padding-right:2%;
   }
 }
